@@ -20,4 +20,4 @@ const secondStudent = {
 };
 
 console.log(firstStudent.passport.country);
-console.log(secondStudent.passport);
+console.log(secondStudent.passport.country);
