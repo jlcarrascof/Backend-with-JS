@@ -21,3 +21,9 @@ const secondStudent = {
 
 console.log(firstStudent?.passport?.country);
 console.log(secondStudent?.passport?.country);
+
+if (secondStudent?.passport?.country) {
+    console.log('He has passport');
+} else {
+    console.log('He has no passport');
+}
