@@ -27,3 +27,17 @@ if (secondStudent?.passport?.country) {
 } else {
     console.log('He has no passport');
 }
+
+// Nullish operator
+
+const age = 20;
+
+// Without nullish operator
+
+const canDrive = age >= 18 ? true : false;
+console.log(canDrive);
+
+// With nullish operator
+
+const canDrive2 = age >= 18 ?? false;
+console.log(canDrive2);
