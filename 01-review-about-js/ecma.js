@@ -19,5 +19,5 @@ const secondStudent = {
     age: 29,
 };
 
-console.log(firstStudent.passport.country);
-console.log(secondStudent.passport.country);
+console.log(firstStudent?.passport?.country);
+console.log(secondStudent?.passport?.country);
