@@ -31,3 +31,12 @@ console.log(dictionary.get('name'));
 dictionary.set('age', 30);
 dictionary.set('name', 'Javier Martinez');
 console.log(dictionary.get('name'));
+
+console.log(dictionary);
+
+const obj = {
+    name: 'John Doe',
+    age: 30,
+};
+
+console.log(obj);
