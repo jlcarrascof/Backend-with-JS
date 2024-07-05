@@ -22,3 +22,12 @@ const thisIsUndefined = undefined;
 
 // Null
 const thisIsNull = null;
+
+// Using Dictionary
+const dictionary = new Map();
+dictionary.set('name', 'John Doe');
+console.log(dictionary.get('name'));
+
+dictionary.set('age', 30);
+dictionary.set('name', 'Javier Martinez');
+console.log(dictionary.get('name'));
