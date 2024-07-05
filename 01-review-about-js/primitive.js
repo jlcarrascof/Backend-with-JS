@@ -40,3 +40,9 @@ const obj = {
 };
 
 console.log(obj);
+
+// Using map()
+const numbers = [1, 2, 3];
+const newNumbers = numbers.map((number) => {
+    return number * 2;
+});
