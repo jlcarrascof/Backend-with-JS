@@ -43,9 +43,15 @@ console.log(obj);
 
 // Using map()
 const numbers = [1, 2, 3];
-const newNumbers = numbers.map((number) => {
+var newNumbers = numbers.map((number) => {
     return number * 2;
 });
 
 console.log(numbers);
+console.log(newNumbers);
+
+newNumbers = numbers.forEach((number) => {
+    return number * 2;
+});
+
 console.log(newNumbers);
