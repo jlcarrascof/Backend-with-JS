@@ -3,8 +3,11 @@ function Person(name) {
 }
 
 Person.prototype.sayHello = function() {
-    console.log("Hello, my name is " +  this.name);
+    return `Hello, my name is ${this.name}`;
 };
 
 const person = new Person('John Doe');
-person.sayHello();
+
+console.log(person); // Person { name: 'John Doe' }
+console.log(person.name); // John Doe
+console.log(person.sayHello()); // Hello, my name is John Doe
