@@ -2,7 +2,7 @@ function Person(name) {
     this.name = name;
 }
 
-Person.prototype.sayHello = function() {
+Person.prototype.sayHello = () => {
     return `Hello, my name is ${this.name}`;
 };
 
