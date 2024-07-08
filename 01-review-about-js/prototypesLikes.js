@@ -69,3 +69,8 @@ console.log('\n');
 console.log('Now, our thread has one comment');
 console.log(thread.getComments());
 console.log('\n');
+
+console.log('We give a like to the first comment');
+firstComment.like();
+console.log(firstComment);
+console.log('\n');
