@@ -55,3 +55,8 @@ console.log('\n');
 console.log('If we call to getComments method, we get an empty array because we have not added any comment yet');
 console.log(thread.getComments());
 console.log('\n');
+
+console.log('We create a new instance of Comment');
+const firstComment = new Comment('This is a test comment');
+console.log(firstComment);
+console.log('\n');
