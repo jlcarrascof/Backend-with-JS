@@ -13,3 +13,11 @@ LikesService.prototype.like = function() {
 LikesService.prototype.dislike = function() {
     this.dislikes++;
 };
+
+LikesService.prototype.getLikes = function() {
+    return this.likes;
+};
+
+LikesService.prototype.getDislikes = function() {
+    return this.dislikes;
+};
