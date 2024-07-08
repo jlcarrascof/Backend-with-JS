@@ -51,3 +51,7 @@ console.log('We create a new instance of CommentsService');
 const thread = new CommentsService();
 console.log(thread);
 console.log('\n');
+
+console.log('If we call to getComments method, we get an empty array because we have not added any comment yet');
+console.log(thread.getComments());
+console.log('\n');
