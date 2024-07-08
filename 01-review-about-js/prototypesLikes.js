@@ -21,3 +21,9 @@ LikesService.prototype.getLikes = function() {
 LikesService.prototype.getDislikes = function() {
     return this.dislikes;
 };
+
+// Comments
+function Comments() {
+    LikesService.call(this);
+    this.message = msg;
+}
