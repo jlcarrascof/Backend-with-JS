@@ -60,3 +60,8 @@ console.log('We create a new instance of Comment');
 const firstComment = new Comment('This is a test comment');
 console.log(firstComment);
 console.log('\n');
+
+console.log('We add the first comment to the thread');
+thread.addComment(firstComment);
+console.log(thread);
+console.log('\n');
