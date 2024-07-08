@@ -74,3 +74,7 @@ console.log('We give a like to the first comment');
 firstComment.like();
 console.log(firstComment);
 console.log('\n');
+
+console.log('We see that the comment has one like');
+console.log(thread.getComments());
+console.log('\n');
