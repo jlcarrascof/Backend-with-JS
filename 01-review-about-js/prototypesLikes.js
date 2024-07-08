@@ -40,3 +40,14 @@ CommentsService.prototype.addComment = function(comment) {
     this.commentsQty++;
     this.comments.push({ id: this.commentsQty, comment });
 };
+
+CommentsService.prototype.getComments = function() {
+    return this.comments;
+};
+
+console.log('\n');
+console.log('We create a new instance of CommentsService');
+
+const thread = new CommentsService();
+console.log(thread);
+console.log('\n');
