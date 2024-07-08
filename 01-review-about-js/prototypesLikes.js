@@ -30,3 +30,13 @@ function Comment() {
 
 Comment.prototype = Object.create(LikesService.prototype);
 Comment.prototype.constructor = Comment;
+
+function CommentsService() {
+    this.comments = [];
+    this.commentsQty = 0;
+}
+
+CommentsService.prototype.addComment = function(comment) {
+    this.commentsQty++;
+    this.comments.push({ id: this.commentsQty, comment });
+};
