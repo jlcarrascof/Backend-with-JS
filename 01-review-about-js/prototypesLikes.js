@@ -65,3 +65,7 @@ console.log('We add the first comment to the thread');
 thread.addComment(firstComment);
 console.log(thread);
 console.log('\n');
+
+console.log('Now, our thread has one comment');
+console.log(thread.getComments());
+console.log('\n');
