@@ -23,7 +23,7 @@ LikesService.prototype.getDislikes = function() {
 };
 
 // Comments
-function Comment() {
+function Comment(msg) {
     LikesService.call(this);
     this.message = msg;
 }
